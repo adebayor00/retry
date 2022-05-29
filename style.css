@@ -1,0 +1,68 @@
+.nav{
+    height: 25vh;
+    background-color: rgb(140, 137, 137);
+    margin-top: -25px;
+    text-align: center;
+}
+
+.nav h2{
+    color: white;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 35px;
+    
+   }
+
+   .card1{
+    border: 1px solid black;
+   }
+
+      .cards h2{
+       font-weight: lighter;
+   }
+
+   .cards button{
+       height: 45px;
+       width: 120px;
+       background-color:rgb(130, 196, 31);
+       color: white;
+       font-weight: bold;
+       font-size: 22px;
+       margin-left: 5px;
+       margin-bottom: 5px;
+   }
+
+   .card1 section{
+             margin-top: -140px;
+   }
+
+   section h1{
+       border: solid 4px white;
+       border-radius: 50%;
+       width: 80px;
+       padding: 50px;
+       padding-left: 40px;
+       font-size: 60px;
+       text-align: center;
+       background-color: rgb(132, 128, 128);
+       position: relative;
+       top: 30px;
+       left: 20%;
+   }
+
+   hr{
+       width: 80%;
+       margin-left: 20px;
+   }
+
+   
